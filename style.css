@@ -1,0 +1,819 @@
+﻿html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	max-width: 100%;
+	height: auto;
+}
+
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	height: auto;
+}
+/* HEAD */
+
+.head {
+	background-image: url("images/06.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 60vh;
+	padding-top: 30vh;
+	padding-bottom: 100px;
+}
+
+/*.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	max-width: 52%;
+	height: auto;
+}*/
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	color: white;
+	font-size: 95px;
+	margin-bottom: 140px;
+	margin-top: 0;
+	text-shadow: 2px 2px black;
+	max-width: 100%;
+	height: auto;
+}
+
+p {
+	font-family: Calibri;
+	color: white;
+	font-size: 20px;
+	text-shadow: 2px 2px black;
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+	.header-center, p.text-center, .header-center-arrow {
+		text-align: center !important;
+	}
+
+.head-p {
+	font-family: Calibri;
+	color: white;
+	font-size: 24px;
+	max-width: inherit;
+	height: inherit;
+	margin: auto;
+	font-weight: lighter;
+}
+/* NAVI */
+.navibar {
+	background-color: rgba( 0, 0, 0, .3);
+	list-style-type: none;
+	min-width: 100%;
+	z-index: 10;
+	margin: auto;
+	font-family: 'Alegreya', serif;
+	font-size: medium;
+	position: fixed;
+	top: 0;
+}
+
+.menu-bar {
+	display: flex !important;
+	flex-basis: 100%;
+	letter-spacing: 2px;
+	line-height: 1em;
+	padding: 0;
+	max-width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.tylda::after {
+	content: "~";
+	margin-left: 50px;
+}
+
+ul {
+	list-style-type: none;
+	display: inherit;
+	text-align: inherit;
+	line-height: 1em;
+	margin-left: 5%;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 0.8em 1.2em;
+	color: white;
+	opacity: 0.9;
+	letter-spacing: 0.3em;
+}
+
+a:hover {
+	color: white;
+	opacity: 0.8;
+}
+
+a:active {
+	color: white;
+}
+
+.link-item {
+	max-width: 100%;
+}
+
+	.link-item:hover {
+		color: rgba(255, 255, 255, 0.6);
+		transition: 0.5s;
+	}
+
+.social-icons {
+	font-size: medium;
+	letter-spacing: 0.2em;
+	line-height: inherit;
+	display: flex;
+	position: absolute;
+	margin: auto;
+	right: 5%;
+	margin-right: 5%;
+}
+
+.fa {
+	display: inline-block;
+	color: white;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	padding: 0;
+}
+
+.fa-instagram, .fa-facebook, .fa-twitter {
+	font-size: medium;
+	transition: 0.5s;
+	margin: 0;
+}
+
+.fa-arrow-down {
+	color: black;
+	opacity: 0.3;
+	z-index: 10;
+	text-align: center;
+	transition: 0.5s;
+}
+
+	.fa-arrow-down:hover {
+		color: white;
+		opacity: 0.2;
+		transition: 0.5s;
+	}
+
+	.fa-arrow-down:active {
+		color: white;
+		transition: 0.5s ease;
+		opacity: 0.2;
+	}
+
+.header-center-arrow {
+	margin-top: 10%;
+}
+
+a {
+	text-decoration-line: none;
+}
+/* BODY */
+
+/* ART */
+
+.sushi-art {
+	padding-bottom: 10%;
+	text-align: center !important;
+}
+
+.art-container, .menu-container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	max-width: 100%;
+	text-align: center !important;
+}
+
+h2 {
+	font-family: 'Alegreya', serif;
+	color: #59564e;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 150px;
+	margin-bottom: 5px;
+	display: block;
+	font-size: 4em;
+}
+
+h3 {
+	font-family: 'Alegreya', serif;
+	color: #8e6d52;
+	text-transform: uppercase;
+	font-weight: lighter;
+	max-width: inherit;
+	text-align: center;
+	margin-top: 0;
+	font-size: 1em;
+	letter-spacing: 0.3em;
+	border-bottom: ridge;
+	display: block;
+}
+
+h4 {
+	font-family: 'Alegreya', serif;
+	font-size: 2em;
+	color: #59564e;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 5px;
+}
+
+.master {
+	display: block;
+	max-width: 100%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.sushi-master-pict {
+	padding: 3vh;
+}
+
+.art1 {
+	padding-right: 5vw;
+}
+
+.art2 {
+	padding-left: 5vw;
+}
+
+.art-second {
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+/* SUSHI MENU */
+
+.sushi-menu {
+	background-image: url("images/menu.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	max-width: 100%;
+	padding-top: 0;
+}
+
+.menu-card {
+	margin: 0;
+	display: block;
+	max-width: 100%;
+	height: auto;
+	padding: 0;
+	text-align: left;
+	line-height: 0em;
+}
+
+h5, h6 {
+	text-align: center;
+	font-family: 'Alegreya', serif;
+	color: white;
+	margin-top: 0;
+	max-width: 100%;
+	height: auto;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+}
+
+h5 {
+	font-size: 72px;
+	text-transform: uppercase;
+	padding: 5%;
+}
+
+h6 {
+	font-size: 36px;
+}
+
+.sale {
+	font-size: 5em;
+	color: #ffe0d6;
+	background-color: rgba(200, 200, 200, .7);
+	text-shadow: 5px 5px #d30707;
+	padding: 0;
+	max-width: 30%;
+	height: auto;
+	position: relative;
+	margin: 0;
+	margin-left: 50%;
+}
+
+* .menu-container {
+	margin-left: 40%;
+	font-weight: bold;
+	text-align: center;
+	padding: 0;
+}
+
+.header-right, .offer {
+	text-align: center !important;
+	margin-bottom: 0;
+	padding-bottom: 5%;
+}
+
+.uramaki, .futomaki, .hosomaki, .sashimi, .nigiri {
+	display: inline-table;
+	margin-bottom: 0;
+	position: relative;
+}
+
+.rolls {
+	margin: 0;
+	padding: 0;
+	margin-right: 10%;
+}
+/* TODAY'S SPECIAL*/
+.todays-special {
+	background-position: center;
+	background-color: #efecdd;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	height: 90vh;
+	max-width: 100%;
+	padding-top: 0;
+	display: block;
+}
+
+.today-containter {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	max-width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+.today-list h2 {
+	margin-top: 5%;
+	max-width: 50%;
+}
+
+.today {
+	font-size: 48px;
+}
+
+p {
+	font-family: Calibri;
+	color: brown;
+	font-size: 24px;
+	display: block;
+	max-width: 100%;
+	height: auto;
+	line-height: 1.5em;
+	margin: 0;
+}
+
+.column1 {
+	max-width: 50%;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+}
+
+.today-list {
+	list-style-type: none;
+	display: flex;
+	text-align: center;
+}
+
+.teriyaki {
+	box-shadow: 5px 5px white;
+	right: 0;
+	margin: 5%;
+	padding: 2%;
+}
+
+li {
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+}
+
+.today-list li button {
+	margin-left: 18%;
+	padding: 2%;
+	height: auto;
+	background-color: black;
+	border: dotted;
+	opacity: 0.3;
+	text-align: center;
+	font-family: 'Alegreya', serif;
+	color: white;
+	margin-top: 0;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	text-align: center;
+	font-size: 36px;
+	transition: 0.5s;
+}
+
+	.today-list li button:hover {
+		color: white;
+		transition 0.5s;
+		opacity: 0.4;
+	}
+
+	.today-list li button:active {
+		opacity: 0.5;
+		transition 0.5s;
+		color: white;
+	}
+
+.today-list li .see-more:hover {
+	color: rgba(255, 255, 255, 0.4);
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+/* FOOTER */
+
+/* MEDIA QUERY */
+
+
+@media (max-width: 1700px) {
+	.head, .menu-card, .sushi-menu {
+		margin: auto;
+		max-width: 100%;
+	}
+
+	.navibar, .menu-bar .link-item, .fa-twitter, .fa-facebook, .fa-instagram {
+		font-size: 1em;
+		text-align: center;
+		letter-spacing: 1.8px;
+	}
+
+	.menu-bar {
+		margin: auto;
+		text-align: center;
+		flex-direction: row;
+	}
+
+	.rolls {
+		width: 20%;
+	}
+
+	h6 {
+		font-size: 26px;
+	}
+
+	.social-icons {
+		text-align: center;
+		font-size: 1em;
+		margin: auto;
+	}
+
+	.menu-card {
+		margin: 0;
+		display: block;
+	}
+
+	li {
+		margin-left: 4%;
+		margin-right: 4%;
+	}
+}
+
+@media (max-width: 1550px) {
+	.navibar, .menu-bar .link-item, .fa-twitter, .fa-facebook, .fa-instagram {
+		font-size: 0.95em;
+		text-align: center;
+		letter-spacing: 1.2px;
+	}
+
+	.social-icons {
+		font-size: 0.95em;
+		text-align: center;
+		margin: auto;
+	}
+
+	h6 {
+		font-size: 24px;
+		letter-spacing: 0;
+	}
+
+	li {
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+
+		li h2 {
+			font-size: 2.5em;
+			margin-bottom: 15%;
+		}
+
+		li p {
+			font-size: 18px;
+			text-shadow: 1px 1px black;
+		}
+
+	.sale {
+		margin-top: 10%;
+	}
+}
+
+@media (max-width: 1250px) {
+	.navibar, .menu-bar .link-item, .fa-twitter, .fa-facebook, .fa-instagram {
+		letter-spacing: 1px;
+	}
+
+	.teriyaki {
+		width: 300%;
+	}
+
+	.menu-bar li {
+		margin-left: 1.5%;
+		margin-right: 1.5%;
+	}
+
+	li {
+		margin-left: 5%;
+		margin-right: 5%;
+		text-align: center;
+		width: 100%;
+	}
+
+	.today-list li {
+		width: 100%;
+	}
+
+		.today-list li button {
+			max-width: 100%;
+			text-align: center;
+			letter-spacing: 0.15em;
+			font-size: 24px;
+			margin-left: 80%;
+			margin-top: 10%;
+			height: auto;
+			width: 100%;
+		}
+}
+
+@media (max-width: 1100px) {
+
+	.menu-bar li {
+		margin: 0;
+	}
+
+	.teriyaki {
+		width: 400%;
+	}
+
+	li {
+		margin-left: 5%;
+		margin-right: 5%;
+		text-align: center;
+		width: 100%;
+	}
+
+	.today-list li {
+		width: 100%;
+	}
+
+		.today-list li button {
+			max-width: 100%;
+			text-align: center;
+			letter-spacing: 0.15em;
+			text-align: center;
+			font-size: 24px;
+			margin-left: 80%;
+			margin-top: 10%;
+			height: auto;
+			width: 100%;
+		}
+
+	.sale {
+		font-size: 5em;
+		color: #ffe0d6;
+		background-color: rgba(200, 200, 200, .7);
+		text-shadow: 5px 5px #d30707;
+		padding: 0;
+		max-width: 100%;
+		height: auto;
+		position: relative;
+		margin: 0;
+		margin-left: 40%;
+		margin-top: 10%;
+	}
+
+	.sushi-master-pict {
+		width: 15%;
+	}
+
+	.art1, .art2 {
+		width: 20%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.head, .menu-card, .sushi-menu {
+		margin: auto;
+		max-width: 100vw;
+	}
+
+	.navibar, .menu-bar .link-item, .fa-twitter, .fa-facebook, .fa-instagram {
+		font-size: 0.9em;
+		text-align: center;
+		letter-spacing: 1.5px;
+	}
+
+	.menu-bar {
+		margin: auto;
+		text-align: center;
+		flex-direction: row;
+	}
+
+	.menu-card {
+		margin: 0;
+		display: block;
+	}
+
+	.social-icons {
+		text-align: center;
+		margin: auto;
+	}
+
+	today-list {
+		padding: 0;
+	}
+
+	.teriyaki {
+		width: 300%;
+		margin-bottom: 10%;
+		margin-left: 10%;
+	}
+
+	li {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+		li a {
+			padding: 0.5em 1em;
+		}
+
+		li h2 {
+			font-size: 2em;
+			margin-bottom: 10%;
+		}
+
+	.column1 {
+		margin: 0;
+	}
+
+	ul {
+		padding: 0;
+	}
+
+	.sale {
+		font-size: 5em;
+		color: #ffe0d6;
+		background-color: rgba(200, 200, 200, .7);
+		text-shadow: 5px 5px #d30707;
+		padding: 0;
+		max-width: 100%;
+		height: auto;
+		position: relative;
+		margin: 0;
+		margin-left: 40%;
+		margin-top: 10%;
+	}
+
+	/*a.link-item {
+		padding: 0;
+	}*/
+
+	.today-list li {
+		width: 100%;
+	}
+
+		.today-list li button {
+			max-width: 100%;
+			text-align: center;
+			letter-spacing: 0.15em;
+			text-align: center;
+			font-size: 24px;
+			margin-left: 80%;
+			margin-top: 10%;
+			height: auto;
+			width: 100%;
+		}
+}
+
+@media (max-width: 865px) {
+	.head, .menu-card, .sushi-menu {
+		margin: auto;
+		padding-top: 10vh;
+		max-width: 100%;
+	}
+
+	.navibar, .menu-bar .link-item, .fa-twitter, .fa-facebook, .fa-instagram {
+		font-size: 0.95em;
+		text-align: center;
+	}
+
+	.tylda::after {
+		content: "";
+		margin-left: 0px;
+	}
+
+	.menu-bar, {
+		margin: auto;
+		text-align: center;
+		flex-direction: row;
+	}
+
+	h1 {
+		font-size: 82px;
+		margin-bottom: 100px;
+	}
+
+		h1.header-center-arrow.link-item {
+			padding: 0;
+		}
+
+	.menu-card {
+		margin: 5%;
+		padding: 2%;
+		padding-left: 10%;
+		padding-bottom: 10%;
+		display: block;
+	}
+
+	h1 {
+		margin-top: 20%;
+	}
+
+	.menu-container {
+		margin: 0 5% 0 5%;
+	}
+
+	.rolls {
+		width: 20%;
+		margin: 2%;
+	}
+
+	li a {
+		padding: 0.3em 0.7em;
+	}
+
+	.link-item {
+		padding-left: 1.5em;
+	}
+
+	.today-list li {
+		width: 100%;
+	}
+		.today-list li button {
+			max-width: 100%;
+			text-align: center;
+			letter-spacing: 0.15em;
+			font-size: 24px;
+			margin-right: 0;
+			margin-top: 30%;
+			height: auto;
+		}
+
+	.sale {
+		font-size: 5em;
+		color: #ffe0d6;
+		background-color: rgba(200, 200, 200, .7);
+		text-shadow: 5px 5px #d30707;
+		padding: 0;
+		max-width: 100%;
+		height: auto;
+		position: relative;
+		margin: 0;
+		margin-left: 40%;
+	}
+
+	.teriyaki {
+		width: 400%;
+	}
+	button.see-more{
+		width:200%;
+	}
+}
